@@ -1,0 +1,24 @@
+{
+  "name": "npm_package_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test_Mongo_Wrapper": "cd node_modules/mongo-operations-wrapper && npm install && npm test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "config": {
+    "dev": "./config_jsons/dev_config.json",
+    "dev_rest_api": "./config_jsons/dev_config.json",
+    "dev_test_api": "./config_jsons/dev_config_test.json",
+    "dev_to_do_list_test": "./config/dev_config_to_do.json",
+    "prod": "",
+    "staging": ""
+  },
+  "dependencies": {
+    "mongo-operations-wrapper": "2.1.0"
+  }
+}
